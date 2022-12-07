@@ -1,0 +1,13 @@
+{
+	"name":"Master Race Rigs",
+	"short_name":"MRRigs",
+	"start_url":"../html/en/index.html",
+	"host_permissions":[
+		"*://*.mrrigs.com"
+	],
+	"permissions":[
+		"cookies"
+	],
+	"display":"standalone",
+	"manifest_version":2
+}
