@@ -1,2 +1,5 @@
-# PC-Life
-Temporary Readme File
+# PC Life
+
+Mikal Dover
+Henry Morales
+Dominic Rando
