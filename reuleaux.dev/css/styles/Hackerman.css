@@ -1,0 +1,67 @@
+body {
+	background-color: #ddd;
+}
+
+a {
+	color: #4b4;
+}
+
+a:hover {
+	color: #5e5;
+}
+
+#headerTop {
+	background-color: #111;
+}
+
+.lineGray {
+	background-color: #444;
+}
+
+#headerBottom {
+	box-shadow: 0 0 .5rem #222;
+	background-color: #222;
+}
+
+.headerButton {
+	background: #222;
+	border-color: #444;
+}
+
+.headerText {
+	color: #fff;
+}
+
+.headerMenu {
+	background-color: #fff;
+}
+
+.headerButton:hover {
+	background: #444;
+}
+
+#headerDropdown {
+	background: #222;
+}
+
+#footerOuter {
+	box-shadow: 0 0 .5rem #222;
+	background-color: #222;
+	color: #fff;
+}
+
+.lineWhite {
+	background-color: #fff;
+}
+
+.footerText {
+	font-family: monospace;
+}
+
+a.social {
+	background: #222;
+}
+
+a.social:hover {
+	background: #fff;
+}

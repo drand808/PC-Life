@@ -1,0 +1,63 @@
+body {
+	background-color: #ddd;
+}
+
+a {
+	color: #48c;
+}
+
+a:hover {
+	color: #6ae;
+}
+
+#headerTop {
+	background-color: #001;
+}
+
+.lineGray {
+	background-color: #446;
+}
+
+#headerBottom {
+	box-shadow: 0 0 .5rem #223;
+	background-color: #223;
+}
+
+.headerButton {
+	background: #223;
+	border-color: #446;
+}
+
+.headerText {
+	color: #fff;
+}
+
+.headerMenu {
+	background-color: #fff;
+}
+
+.headerButton:hover {
+	background: #446;
+}
+
+#headerDropdown {
+	background: #223;
+}
+
+#footerOuter {
+	box-shadow: 0 0 .5rem #223;
+	background-color: #223;
+	color: #fff;
+}
+
+.lineWhite {
+	background-color: #fff;
+}
+
+a.social {
+	background: #223;
+}
+
+a.social:hover {
+	background: #fff;
+}
