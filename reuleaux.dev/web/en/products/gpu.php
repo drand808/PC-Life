@@ -2,8 +2,9 @@
 /*error_reporting(~0); ini_set('display_errors', 1);*/
 session_start();
 
+$component = strtok(basename("$_SERVER[REQUEST_URI]"), '?');
 include "filter.php";
-$query = filterResults("gpu");
+$query = filterResults($component);
 $result = mysqli_query($conn, $query);
 $conn->close(); 
 ?>
@@ -19,11 +20,17 @@ $conn->close();
 		<div id="flex">
 			<div id="bodyTop">
 				<h1>GPU Components</h1>
+				<a class="bodyTopButton"href="products/cpu">CPU</a>
+				<a class="bodyTopButton bodyTopActive"href="products/gpu">GPU</a>
+				<a class="bodyTopButton"href="products/memory">RAM</a>
+				<a class="bodyTopButton"href="products/motherboard">Motherboard</a>
+				<a class="bodyTopButton"href="products/storage">Storage</a>
 			</div>
 			<div id="bodyBottom">
-			
+			<?php include "filterBox.php"; ?>
+                        
 			<!-- table start -->
-			<table>
+			<table id="table-component">
                                 <tr>
                                         <th>Name</th>
                                         <th>Manufacturer</th>

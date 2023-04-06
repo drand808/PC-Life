@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 <style>
 .form_div2{
     position: relative;
-    vertical-align:middle;
+    vertical-align: middle;
     border: 1.5rem inset;
     min-height: 100%;
     width: 40%;  
@@ -68,7 +68,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     padding-left: 1rem;
     padding-top: 2rem;
     overflow: hidden;
+	justify-content: center;
+    align-items: center;
 }
+
 </style>
 	<head>
 		<?php include "../../../php/head.php"; ?>
