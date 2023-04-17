@@ -29,6 +29,8 @@ becomes
 
 Open `C:\xampp\reuleaux.dev\php\website.php`.  Delete the contents of the file, and replace it with `localhost`.  This is the base for all HTML links.
 
+Open your browser of choice, and enter `localhost` into the URL.  You should now be able to view our website running on your local machine.
+
 ### Ease of Use Recommendation
 
 We highly recommend changing the default text editor.  You can do this by opening XAMPP, clicking on the `Config` button and selecting a new editor application.  Our recommendation of Notepad++ is typically installed at `C:\Program Files\Notepad++\notepad++.exe`.[^1]
@@ -36,5 +38,9 @@ We highly recommend changing the default text editor.  You can do this by openin
 ### Note to Windows users
 
 You should install XAMPP in a folder without restricted write permissions.  It is advised *against* installing the program in `C:\Program Files`, `C:\Program Files (x86)`, or any equivalent.  Instead, we recommend the root directory of a drive, such as `C:\xampp` or `D:\xampp`.  Your `C:\Users\{USER}\AppData\Local` folder may also be suitable.
+
+### Database
+
+Note that we have not provided instructions on how to set up the database.  This process that would take a significant amount of time.
 
 [^1]: In Windows, the XAMPP Control Panel may throw an error when writing to files, even if your application is installed in a safe location.  If this happens, re-launch the application as an administrator.
