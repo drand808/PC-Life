@@ -49,9 +49,9 @@ becomes
 
 Save this file and go back to the main XAMPP window.  Now, click the same configuration button as before, and select `Apache (httpd-ssl.conf)`.  Replace all instances of `443` with yet another port number (e.g. `23456`).  Save this file and close it.
 
-Open `C:\xampp\reuleaux.dev\php\website.php`.  Delete the contents of the file, and replace it with `localhost`.  This is the base for all HTML links.
+Open `C:\xampp\reuleaux.dev\php\website.php`.  Delete the contents of the file, and replace it with `https://localhost:` followed by your SSL port number (e.g. `https://localhost:23456`).  You can also use the non-SSL version if you wish to use HTTP instead of HTTPS (e.g. `http://localhost:12345`).
 
-Click `Start` next to Apache in the main XAMPP window.
+Click `Start` next to Apache in the main XAMPP window.  The home page should load.  However, if you try to click anything that requests the database, you will receive an error.
 
 Open your browser of choice, and enter `localhost:` followed by your port number into the URL (e.g. `localhost:12345`).  You should now be able to view the website running on your local machine.
 
