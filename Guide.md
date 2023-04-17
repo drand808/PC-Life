@@ -41,6 +41,8 @@ You should install XAMPP in a folder without restricted write permissions.  It i
 
 ### Database
 
-Note that we have not provided instructions on how to set up the database.  This process that would take a significant amount of time.
+Note that we have not provided instructions on how to set up a copy of the database.[^2]  This process that would take a significant amount of time.  We can come back and write that as needed.
 
 [^1]: In Windows, the XAMPP Control Panel may throw an error when writing to files, even if your application is installed in a safe location.  If this happens, re-launch the application as an administrator.
+
+[^2]: You may receive denied permissions when attempting to connect to the official database from your local website.  We're attempting to find a way to work around it.
